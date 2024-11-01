@@ -1,0 +1,22 @@
+// desktop
+@use "./desktop/header-desctop.scss";
+
+:root {
+  --bg-color-red: #dd2242;
+  --text-color-white: #fff;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  margin: 0;
+}
+
+.container {
+  //   width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+}
