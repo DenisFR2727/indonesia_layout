@@ -5,7 +5,7 @@
       rgba(0, 0, 0, 0.31) 29.66%,
       rgba(0, 0, 0, 0.29) 84.2%
     ),
-    url("./bg.jpg");
+    url("./background/bg.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -201,7 +201,7 @@
             line-height: 41.081px;
             opacity: none;
           }
-          p {
+          .header__titles-item--text {
             width: 210.109px;
             color: #939393;
             font-feature-settings: "liga" off, "clig" off;
