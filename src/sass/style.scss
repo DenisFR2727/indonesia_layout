@@ -1,10 +1,14 @@
 // desktop
 @use "./desktop/header-desctop.scss";
 @use "./desktop/main-spellbind.scss";
+@use "./desktop/secrets-desctop.scss";
+@use "./desktop/gallery-descktop.scss";
 
 /* mobile */
 @use "./mobile/Header.mobile.scss";
 @use "./mobile/Main-spellbind.mobile.scss";
+@use "./mobile/Secrets.mobile.scss";
+@use "./mobile/Gallery.mobile.scss";
 
 :root {
   --bg-color-red: #dd2242;
@@ -25,9 +29,3 @@ body {
   max-width: 1920px;
   margin: 0 auto;
 }
-// @media (max-width: 375px) {
-//   .container {
-//     padding-left: 30px;
-//     padding-right: 31px;
-//   }
-// }
