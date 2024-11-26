@@ -1,0 +1,55 @@
+@media (max-width: 375px) {
+  .experience__life {
+    padding: 83px 32px 0 30px;
+    h3 {
+      width: 100%;
+      padding-top: 0;
+      max-width: 314px;
+      font-size: 40px;
+      line-height: 46px;
+
+      br {
+        display: block;
+      }
+    }
+    .experience__life-image {
+      margin: 0;
+      margin-top: 40px;
+      height: auto;
+
+      img {
+        object-fit: cover;
+        width: 314px;
+        height: 192px;
+      }
+    }
+    .experience__life-bottom {
+      margin: 0;
+      margin-top: 40px;
+      flex-direction: column;
+      gap: 40px;
+      .experience__life-bottom-item {
+        flex-direction: column;
+        img {
+          object-fit: cover;
+          max-width: 314px;
+          height: 176px;
+          border-radius: 5px;
+        }
+        .experience__life-bottom-item--content {
+          margin: 0;
+          gap: 20px;
+          flex-direction: column;
+          .experience__life-bottom-item-first {
+            text-align: center;
+            font-size: 22px;
+          }
+          .experience__life-bottom-item-second {
+            text-align: center;
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+}

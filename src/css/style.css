@@ -345,6 +345,8 @@
   position: relative;
 }
 .experience__life h3 {
+  margin: 0 auto;
+  width: 1056px;
   padding-top: 141px;
   color: var(--Colors-White, #fff);
   text-align: center;
@@ -355,6 +357,9 @@
   font-style: normal;
   font-weight: 700;
   line-height: 50px;
+}
+.experience__life h3 br {
+  display: none;
 }
 .experience__life .experience__life-image {
   margin: 67.2px auto;
@@ -1027,8 +1032,61 @@
   }
 }
 @media (max-width: 375px) {
+  .experience__life {
+    padding: 83px 32px 0 30px;
+  }
+  .experience__life h3 {
+    width: 100%;
+    padding-top: 0;
+    max-width: 314px;
+    font-size: 40px;
+    line-height: 46px;
+  }
+  .experience__life h3 br {
+    display: block;
+  }
+  .experience__life .experience__life-image {
+    margin: 0;
+    margin-top: 40px;
+    height: auto;
+  }
+  .experience__life .experience__life-image img {
+    object-fit: cover;
+    width: 314px;
+    height: 192px;
+  }
+  .experience__life .experience__life-bottom {
+    margin: 0;
+    margin-top: 40px;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .experience__life .experience__life-bottom .experience__life-bottom-item {
+    flex-direction: column;
+  }
+  .experience__life .experience__life-bottom .experience__life-bottom-item img {
+    object-fit: cover;
+    max-width: 314px;
+    height: 176px;
+    border-radius: 5px;
+  }
+  .experience__life .experience__life-bottom .experience__life-bottom-item .experience__life-bottom-item--content {
+    margin: 0;
+    gap: 20px;
+    flex-direction: column;
+  }
+  .experience__life .experience__life-bottom .experience__life-bottom-item .experience__life-bottom-item--content .experience__life-bottom-item-first {
+    text-align: center;
+    font-size: 22px;
+  }
+  .experience__life .experience__life-bottom .experience__life-bottom-item .experience__life-bottom-item--content .experience__life-bottom-item-second {
+    text-align: center;
+    font-size: 16px;
+  }
+}
+@media (max-width: 375px) {
   .gallery {
-    padding: 0px 32px 0 31px;
+    padding: 40px 32px 0 31px;
   }
   .gallery h2 {
     padding: 0;
